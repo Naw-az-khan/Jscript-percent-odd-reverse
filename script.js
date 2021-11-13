@@ -84,4 +84,11 @@ var JSONname ={
         {name:"The Information"},
     ],
 };
-console.log(JSONname.names);
+console.log(JSONname.names)
+
+var Name1 = JSONname.names[15];
+console.log(Name1); 
+
+for(var i=0;i<JSONname.names.length;i++){
+    console.log(JSONname.names[i].name);
+}
